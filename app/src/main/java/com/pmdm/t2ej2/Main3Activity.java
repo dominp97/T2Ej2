@@ -43,6 +43,7 @@ public class Main3Activity extends AppCompatActivity implements ListView.OnItemC
     }
 
     public void click(View v){
+
         Intent i=new Intent();
         if(!lista.isEmpty()){
             //i.putExtra("TXT1",lista);
