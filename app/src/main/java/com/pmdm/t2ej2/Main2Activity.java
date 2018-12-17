@@ -19,7 +19,7 @@ public class Main2Activity extends AppCompatActivity {
         TextView t2 = findViewById(R.id.editText2);
 
         Intent i=new Intent();
-        if(t1.getText() != null){
+        if(t1.getText().toString() != null && !t1.getText().toString().equals("")){
             i.putExtra("TXT1",t1.getText().toString());
             setResult(RESULT_OK,i);
         }else if(t2.getText() != null ){
